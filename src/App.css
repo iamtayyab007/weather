@@ -1,0 +1,59 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-container {
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 990px;
+  max-height: 600px;
+  background-color: lightgreen;
+}
+
+.input-fields {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.input-fields input {
+  width: 70%;
+  border: none;
+  outline: none;
+  background-color: aliceblue;
+  color: black;
+  border-radius: 12px;
+  padding: 20px;
+  font-size: 20px;
+}
+.input-fields button {
+  padding: 20px 30px;
+  font-size: 20px;
+}
+
+.input-fields button:hover {
+  background-color: red;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+}
+.misc {
+  display: flex;
+  justify-content: space-around;
+}
